@@ -22,6 +22,14 @@
         "source": "github",
         "repo": "drivenlabs-ai/batch-cep"
       }
+    },
+    {
+      "name": "outreach",
+      "description": "Outbound prospection productisée : sourcing Lemlist → scoring → CRM Attio + learning loop. Accès privé.",
+      "source": {
+        "source": "github",
+        "repo": "drivenlabs-ai/outreach"
+      }
     }
   ]
 }
