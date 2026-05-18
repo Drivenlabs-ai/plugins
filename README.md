@@ -13,18 +13,16 @@ Puis installe les plugins que tu veux :
 ```
 /plugin install driven@drivenlabs-ai
 /plugin install batch-cep@drivenlabs-ai
-/plugin install outreach@drivenlabs-ai          # accès au repo privé requis
-/plugin install phantombuster@drivenlabs-ai     # accès au repo privé requis
 ```
 
 ## Plugins
 
-| Plugin | Visibilité | Repo | Description |
-|---|---|---|---|
-| `driven` | Public | [drivenlabs-ai/driven](https://github.com/drivenlabs-ai/driven) | Compagnon de workspaces collaboratifs Claude. Capture mémoire, cross-author, propagation. |
-| `batch-cep` | Public | [drivenlabs-ai/batch-cep](https://github.com/drivenlabs-ai/batch-cep) | Orchestration Batch.com (CEP + MEP) en langage naturel. 60 commandes wrappées. |
-| `outreach` | Private | drivenlabs-ai/outreach | Outbound productisé : sourcing Lemlist → scoring → CRM Attio + learning loop. |
-| `phantombuster` | Private | drivenlabs-ai/phantombuster | CLI bas niveau pour l'API Phantombuster v2 (LinkedIn automation). |
+| Plugin | Repo | Description |
+|---|---|---|
+| `driven` | [drivenlabs-ai/driven](https://github.com/drivenlabs-ai/driven) | Compagnon de workspaces collaboratifs Claude. Capture mémoire, cross-author, propagation. |
+| `batch-cep` | [drivenlabs-ai/batch-cep](https://github.com/drivenlabs-ai/batch-cep) | Orchestration Batch.com (CEP + MEP) en langage naturel. 60 commandes wrappées. |
+
+> Cette marketplace ne référence que les plugins publics. Les plugins internes Drivenlabs (`outreach`, `phantombuster`) vivent dans des repos privés et sont distribués séparément aux collaborateurs autorisés.
 
 ## Architecture
 
